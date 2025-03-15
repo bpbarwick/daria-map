@@ -1,0 +1,100 @@
+/*******************************/
+/* Your custom classes go here */
+/*******************************/
+.pre-war-capital {
+    background-color: transparent;
+    font-size: 20;
+    color: rgb(0, 180, 0);
+}
+.pre-war-capital.leaflet-tooltip-left:before {
+    border-left-color: rgb(0, 180, 0);
+}
+.pre-war-capital.leaflet-tooltip-right:before {
+    border-right-color: rgb(0, 180, 0);
+}
+.pre-war-capital.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black) brightness(0.4) sepia(1) hue-rotate(-270deg) saturate(5);
+    filter: drop-shadow(0 0 2px black) brightness(0.4) sepia(1) hue-rotate(-270deg) saturate(5);
+}
+
+.city {
+    background-color: transparent;
+    font-size: 18;
+    color: rgb(0, 255, 0);
+}
+.city.leaflet-tooltip-left:before {
+    border-left-color: rgb(0, 255, 0);
+}
+.city.leaflet-tooltip-right:before {
+    border-right-color: rgb(0, 255, 0);
+}
+.city.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black) brightness(0.5) sepia(1) hue-rotate(-270deg) saturate(5);
+    filter: drop-shadow(0 0 2px black) brightness(0.5) sepia(1) hue-rotate(-270deg) saturate(5);
+}
+
+
+.post-war-capital {
+    background-color: transparent;
+    font-size: 20;
+    color: rgb(180, 0, 0);
+}
+.post-war-capital.leaflet-tooltip-left:before {
+    border-left-color: rgb(180, 0, 0);
+}
+.post-war-capital.leaflet-tooltip-right:before {
+    border-right-color: rgb(180, 0, 0);
+}
+.post-war-capital.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black) brightness(0.2) sepia(1) hue-rotate(-50deg) saturate(5);
+    filter: drop-shadow(0 0 2px black) brightness(0.2) sepia(1) hue-rotate(-50deg) saturate(5);
+}
+
+.settlement {
+    background-color: transparent;
+    font-size: 16;
+    color: rgb(255, 0, 0);
+}
+.settlement.leaflet-tooltip-left:before {
+    border-left-color: rgb(255, 0, 0);
+}
+.settlement.leaflet-tooltip-right:before {
+    border-right-color: rgb(255, 0, 0);
+}
+.settlement.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black) brightness(0.3) sepia(1) hue-rotate(-40deg) saturate(5);
+    filter: drop-shadow(0 0 2px black) brightness(0.3) sepia(1) hue-rotate(-40deg) saturate(5);
+}
+
+
+.intra-settlement {
+    background-color: transparent;
+    font-size: 14;
+    color: rgb(0, 180, 180);
+}
+.intra-settlement.leaflet-tooltip-left:before {
+    border-left-color: rgb(0, 180, 180);
+}
+.intra-settlement.leaflet-tooltip-right:before {
+    border-right-color: rgb(0, 180, 180);
+}
+.intra-settlement.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black) brightness(0.6) sepia(1) hue-rotate(-180deg) saturate(5);
+    filter: drop-shadow(0 0 2px black) brightness(0.6) sepia(1) hue-rotate(-180deg) saturate(5);
+}
+
+.misc-poi {
+    background-color: transparent;
+    font-size: 14;
+    color: rgb(0, 255, 255);
+}
+.misc-poi.leaflet-tooltip-left:before {
+    border-left-color: rgb(0, 255, 255);
+}
+.misc-poi.leaflet-tooltip-right:before {
+    border-right-color: rgb(0, 255, 255);
+}
+.misc-poi.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black) brightness(0.7) sepia(1) hue-rotate(-180deg) saturate(5);
+    filter: drop-shadow(0 0 2px black) brightness(0.7) sepia(1) hue-rotate(-180deg) saturate(5);
+}

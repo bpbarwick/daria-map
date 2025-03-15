@@ -1,0 +1,9 @@
+[Ponyville]
+    name = "Ponyville" #Name
+    class = "city" #Icon, font colour and other CSS stuff
+    lat = 3263 #X
+    lng = 3295 #Y
+    zoom_level = 1 #The zoom level for when this PoI will appear, goes from 0(Always on) to 3(Inside a city)
+    description = "" #The description of the poi, fully html compliant
+    link = "" #A link to say a wiki page of this poi
+    from = 1 #where this poi is from
